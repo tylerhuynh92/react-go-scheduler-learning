@@ -1,7 +1,18 @@
 .env
 node_modules
+dist-ssr
+*.local
 
 # Compiled Object Files (Static & Dynamic libs [Shared Objects])
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+
 
 *.o
 *.a
@@ -14,6 +25,12 @@ vendor/
 
 # Logs
 *.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
 # Compiled binary files
 *.exe
